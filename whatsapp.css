@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin-top:150px;
     padding: 0;
 }
 /* *{
@@ -8,7 +8,8 @@ body{
 .tete { display: flex;
     height: 100px;
       width: 100%;
-   
+   position: fixed;
+   top: 0px;
     background-color:#128c7e;
 }
 .menu{
@@ -33,14 +34,15 @@ body{
     display: flex;
     width: 100%;
 align-items: space-between;
-justify-content: center;
-  
+justify-content:center;
+ 
 }
 
     .bloc1 ,
     .bloc2{display: block;
-        margin-left: 50px;
+        margin-left: 20px;
         width: 45%;
+        
        }
        .bloc2{
            height: 572px;
@@ -53,14 +55,17 @@ justify-content: center;
      
         margin-top: 20px;
         margin-left: 0px;
+        justify-content: space-between;
+      ;
     }
 
-    .bloc3, .bloc4{display: block;
-        padding-left: 200px;
-        margin-left: 70px;
+     .bloc3, .bloc4{display: block; 
+        padding-left: 200px 
+          margin-left: 70px; 
+         width: 45%; 
         
 
-    }
+     } 
 
 
     
@@ -77,6 +82,7 @@ margin-top: 30px;
 .iphone{
     height:14.0333px ;
     width:11.45px;
+    
 }
 .mac{
     height:40.5333px ;
@@ -123,9 +129,14 @@ h4{margin: auto;
 }
 .bloc3{
     background-color: #D8E8EA;
+    width: 49%;
+    text-align: center;
     
 }
-.bloc4{background-color: #E7F0E4;}
+.bloc4{background-color: #E7F0E4;
+width:49%;
+text-align: center;
+}
 
 
 
@@ -135,4 +146,7 @@ li{
 }
 a {
     text-decoration: none;
+}
+.icone a{ color: #128c7e;
+
 }
